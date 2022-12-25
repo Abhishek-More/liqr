@@ -1,4 +1,4 @@
-# Live QR CLI
+# LiQR CLI
 Have you ever used your phone or tablet to access a web app running on live-server?\
 If so, you probably went through the tedious process of:
 
@@ -8,4 +8,4 @@ If so, you probably went through the tedious process of:
 * Typing it into your mobile browser again
 * Finally accessing your app
 
-Live QR fixes this problem by generating a QR code in your terminal that links to your live server.
+LiQR (pronounces 'liquor') fixes this problem by generating a QR code in your terminal that links to your live server.
