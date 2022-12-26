@@ -8,4 +8,4 @@ If so, you probably went through the tedious process of:
 * Typing it into your mobile browser again
 * Finally accessing your app
 
-LiQR (pronounces 'liquor') fixes this problem by generating a QR code in your terminal that links to your live server.
+LiQR (pronounced 'liquor') fixes this problem by generating a QR code in your terminal that links to your live server.
