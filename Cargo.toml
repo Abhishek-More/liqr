@@ -1,14 +1,14 @@
 [package]
 name = "liqr"
 version = "0.1.0"
-authors = ["Abhishek More <abhishekmore@tamu.edu>"]
+edition = "2021"
 license = "MIT"
-description = "A CLI to generate QR codes for live servers"
+homepage = "https://github.com/Abhishek-More/liqr"
+repository = "https://github.com/Abhishek-More/liqr"
 readme = "README.md"
-homepage = "https://github.com/abhishekmore/liqr"
-repository = "https://github.com/abhishekmore/liqr"
-keywords = ["cli", "qr", "qrcode", "liveserver", "live-server"]
-categories = ["command-line-utilities"]
+description = """
+A CLI to generate QR codes for live servers
+"""
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
