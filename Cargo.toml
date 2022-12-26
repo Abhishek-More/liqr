@@ -1,8 +1,11 @@
 [package]
-name = "liveqr"
+name = "liqr"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+clap = { version = "4.0", features = ["derive"] }
+qr2term = "0.3.1"
+local-ip-address = "0.4.9"
