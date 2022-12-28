@@ -11,6 +11,12 @@ If so, you probably went through the tedious process of:
 
 LiQR (pronounced 'liquor') fixes this problem by generating a QR code in your terminal that links to your live server.
 
+## Installation
+Install using cargo:
+```
+cargo install liqr
+```
+
 ## Usage
 
 To generate a QR code at [local_ip]:[port]:
