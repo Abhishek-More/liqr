@@ -1,7 +1,5 @@
 # LiQR CLI
 
-liqr.vercel.app
-
 Have you ever used your phone or tablet to access a web app running on live-server?\
 If so, you probably went through the tedious process of:
 
@@ -15,6 +13,8 @@ LiQR (pronounced 'liquor') fixes this problem by generating a QR code in your te
 
 ## Usage
 
+To generate a QR code at [local_ip]:[port]:
 ```
-liqr [port] #default is 5500
+liqr [port]
 ```
+The default port is 5500
