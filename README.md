@@ -29,5 +29,5 @@ The default port is 5500
 
 To create a general QR code for [url]:
 ```
-liqr --url [url]
+liqr -u [url]
 ``` 
