@@ -4,7 +4,7 @@ use qr2term::print_qr;
 
 #[derive(Parser)]
 struct Cli {
-    #[clap(default_value_t=5500, value_parser=clap::value_parser!(i32).range(0...65535))]
+    #[clap(default_value_t=5500)]
     port: i32,
 
     #[clap(short, long)]
@@ -15,7 +15,6 @@ fn main() {
     let args: Cli = Cli::parse(); 
     let url;
     let arg_url = args.url.unwrap_or("".to_string());
-
 
     if arg_url == "" {
         let ip = local_ip().unwrap();
