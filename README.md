@@ -24,3 +24,10 @@ To generate a QR code at [local_ip]:[port]:
 liqr [port]
 ```
 The default port is 5500
+<br>
+
+
+To create a general QR code for [url]:
+```
+liqr --url [url]
+``` 
