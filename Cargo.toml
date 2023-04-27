@@ -1,10 +1,10 @@
 [package]
   name = "liqr"
-version = "0.1.7"
+version = "1.0.0"
 edition = "2021"
 license = "MIT"
 homepage = "https://liqr.vercel.app"
-repository = "https://github.com/Abhishek-More/liqr"
+repository = "https://github.com/Abhismek-More/liqr"
 readme = "README.md"
 keywords = ["live", "server", "QR", "development", "mobile"]
 categories =["command-line-utilities"]

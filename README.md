@@ -26,6 +26,14 @@ To generate a QR code at [local_ip]:[port]:
 liqr [port]
 ```
 The default port is 5500
+Example: `liqr 3000` &rarr; https://localhost:3000
+<br>
+
+To create a QR code for [local_ip]:[port][route]:
+```
+liqr [port] -r [route]
+```
+Example: `liqr 3000 -r /api/users` &rarr; https://localhost:3000/api/users
 <br>
 
 
@@ -33,3 +41,4 @@ To create a general QR code for [url]:
 ```
 liqr -u [url]
 ``` 
+Example: `liqr -u https://google.com` &rarr; https://google.com
